@@ -1,0 +1,22 @@
+{
+    "name":"italo/sistema_propostas",
+    "description": "",
+    "type": "libraries",
+    "license": "",
+    "authors": [
+        {
+            "name": "",
+            "email": "ti@mtecenergia.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/",
+            "Includes\\": "includes/",
+            "Database\\":"Database/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
